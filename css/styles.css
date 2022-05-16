@@ -66,6 +66,7 @@ li{
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    background-color: #c2bbbb;
 }
 .sectionNavegador ul{
     display: flex;
