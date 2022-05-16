@@ -147,7 +147,8 @@ footer{
     color: white;
 }
 footer div{
-    float: left;
+    text-align: center;
+    width: 100%;
 }
 
 footer a{
@@ -160,6 +161,4 @@ footer a{
 footer p{
     text-shadow: 1px 1px black;
     text-align: center;
-    display: block;
-    float: left;
 }
