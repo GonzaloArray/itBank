@@ -28,8 +28,8 @@ li{
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
-    border-bottom: 2px solid #00000409;
-    background-color: #dbdbdb;
+    border-bottom: 2px solid #242424;
+    background-color: #c7c7c7;
 }
 .btnActivo{
     background-color: black;
@@ -48,12 +48,11 @@ li{
 .onlineBlank{
     display: inline-block;
     font-weight: 500;
-    color:black;
+    color:#BF443F;
 }
 
 .onlineBlank:hover, .onlineBlank:active{
-    color: #BF443F;
-    text-decoration: underline 2px;
+    color: black;
     transition: all ease 0.2s;
 }
 
@@ -139,7 +138,7 @@ li{
 
 /* Footer */
 footer{
-    background-color: #4899db;
+    background-color: #242424;
     height: 150px;
     display: flex;
     align-items: center;
@@ -156,6 +155,9 @@ footer a{
     padding: 0px 5px;
     color: white;
     text-shadow: 1px 1px black;
+}
+footer a:hover, footer a:active{
+    text-decoration: underline;
 }
 
 footer p{
