@@ -154,7 +154,7 @@ footer a{
     justify-content: space-between;
     padding: 0px 5px;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px 1px black;
 }
 footer a:hover, footer a:active{
     text-decoration: underline;
