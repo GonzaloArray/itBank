@@ -63,7 +63,7 @@ li{
     text-align: center;
 }
 .sectionTitulo h1{
-    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
 }
 .sectionTitulo span{
     font-weight: 700;
@@ -76,13 +76,11 @@ li{
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    background-color: #4899db;
-    color: white;
-    text-align: center;
+    background-color: #c2bbbb;
 }
 .sectionNavegador ul{
-    display: inline-flex;
-    
+    display: flex;
+    margin-left: .8rem;
 }
 .sectionNavegador li{
     margin: 0 .6rem;
