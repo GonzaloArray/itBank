@@ -164,3 +164,48 @@ footer p{
     text-shadow: 1px 1px black;
     text-align: center;
 }
+
+/* Home Banking */
+body.homebanking{
+    background-color: #eeeeee;
+}
+h1.titulo{
+    text-align: center;
+
+}
+
+.formulario {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.formulario-input{
+    display: block;
+    background-color: #888888;
+    padding: 15px 30px;
+    border-radius: 0.8rem;
+}
+.formulario-input span{
+    display: block;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.boton-ingresar{
+    margin-top: 10px;
+}
+
+.boton-ingresar input{
+    border-radius: 0.3rem;
+    background-color: #4899db;
+    width: 100px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.boton-ingresar input:hover{
+    cursor: pointer;
+}
+
