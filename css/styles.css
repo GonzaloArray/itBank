@@ -209,4 +209,6 @@ h1.titulo{
 .boton-ingresar input:hover{
     cursor: pointer;
 }
-
+.barra-nav{
+    background-color: #4899db;
+}
