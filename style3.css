@@ -41,3 +41,61 @@ font-size: 16px;
     font-size: 16px;
     color: black
 }
+
+.subtitulo1 {
+    font-size: 16px;
+    margin:16px;
+    color: cadetblue;
+
+}
+
+.subtexto1 {
+    font-size: 14px;
+    margin: 14px;
+    
+}
+
+.subtitulo2 {
+    font-size: 16px;
+    margin:16px;
+    color: cadetblue;
+
+}
+
+.subtexto2 {
+    font-size: 14px;
+    margin: 14px;
+    
+}
+
+.subtitulo3 {
+    font-size: 16px;
+    margin:16px;
+    color: cadetblue;
+
+}
+
+.subtexto3 {
+    font-size: 14px;
+    margin: 14px;
+    
+}
+
+.banco-hola {
+    align-content: left;
+    width: 100%;
+    margin: 16px;
+    border-color: black;
+}
+
+.banco-seguridad {
+    width: 100%;
+    margin: 16px;
+    border-color: black;
+}
+
+.banco-pyme {
+    width: 100%;
+    margin: 16px;
+    border-color: black;
+}
