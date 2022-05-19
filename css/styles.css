@@ -432,3 +432,9 @@ nav{
         left: 4rem;
     }
 }
+.cont-nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
