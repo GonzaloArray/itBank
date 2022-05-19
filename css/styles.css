@@ -252,16 +252,34 @@ nav{
         font-weight: 900;
         text-align: left;
         transition: 1s;
-        overflow: hidden;
         position: relative;
+        z-index: 1;
+        overflow: hidden;
+        display: inline-block;
     }
     .btnSlider:hover{
-        background-color: var(--blanco);
         color: var(--primario);
-        font-weight: 900;
-        transition: 1s;
-        transform: translateY(-10px);
     }
+    .btnSlider::after{
+        content: "";
+        background: var(--segundo);
+        position: absolute;
+        z-index: -1;
+        padding: 16px 20px;
+        display: block;
+        top: 0;
+        left: -60px;
+        height: 100%;
+        transform: skewX(35deg);
+        -webkit-transition: all 0.35s;
+        transition: all 1s;
+        width: 0;
+    }
+    .btnSlider:hover::after{
+        width: 150%;
+    }
+
+
     /* Section Grid */
     .sectionGrid{
         display: grid;
