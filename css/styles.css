@@ -82,9 +82,7 @@ h1, h2, h3, h4, h5, h6{
     color: var(--blanco);
     font-weight: 900;
 }
-nav{
-    display: none;
-}
+
 /* Logo ITBA */
 .logoItba img{
     width: 3.5rem
@@ -134,6 +132,7 @@ nav{
 .informeBank p{
     margin-bottom: 2rem;
 }
+
 
 /* btnSlider */
 .btnSlider{
@@ -402,6 +401,7 @@ nav{
     transition: 1s;
     padding: .6rem 4rem;
     width: 0;
+    
 }
 #ingresar:hover{
     transform: translateY(20px);
@@ -438,3 +438,24 @@ nav{
     width: 100%;
     max-width: 100%;
 }
+
+.imagenDIV{
+    background-image: url(../images/banco-cajero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgCover{
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .imgCover{
+        object-fit: fill;
+    }
+}
+@media (min-width: 1200px) {
+    
+}
+
+/* Productos - Pregunras Frecuentes -  */
