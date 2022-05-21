@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Clases */
-/* Home Banking */
+/* -------------------------- Home Banking ----------------------------*/
 
 .homeBanking{
     background-color: var(--primario);
@@ -346,7 +346,48 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-/* Home Banking */
+/* -------Home Banking ----------*/
+/* ---- Online Banking -----*/
+.nav-onlinebanking{
+    background-color: var(--primario);
+    color: var(--segundo);
+}
+.nav-online-link:hover{
+    color: #222020;
+    transition: all ease 0.15s;
+}
+.btn-mov-trans:hover{
+    background-color: var(--primario);
+    color: var(--segundo);
+}
+.btn-aliascbu{
+    border-color: var(--primario);
+    color: var(--primario);
+}
+.btn-aliascbu:hover{
+    background-color: var(--primario);
+}
+.entrar-tarjeta:hover{
+    cursor: pointer;
+    background-color: var(--primario);
+    color: var(--segundo);
+    transition: all ease 150ms;
+}
+/* Navbar de la Sesion Iniciada */
+.img-avatar{
+    background-image: url(../images/avatar.jpg);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+}
+.itba-logo{
+    background-image: url(../images/ITBA-logo.png);
+    width: 80px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* Body HomeBanking */
 .bdHomeBanking{
     align-items: center;
@@ -439,23 +480,3 @@ h1, h2, h3, h4, h5, h6{
     max-width: 100%;
 }
 
-.imagenDIV{
-    background-image: url(../images/banco-cajero.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.imgCover{
-    object-fit: cover;
-}
-
-@media (min-width: 768px) {
-    .imgCover{
-        object-fit: fill;
-    }
-}
-@media (min-width: 1200px) {
-    
-}
-
-/* Productos - Pregunras Frecuentes -  */

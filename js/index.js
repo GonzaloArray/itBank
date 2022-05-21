@@ -18,3 +18,4 @@ function darkMode() {
 function alertaHomeBanking() {
     console.log('Esto va ser una alerta');
 }
+
