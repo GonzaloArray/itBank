@@ -121,3 +121,13 @@ border-right: 20rem;
 
 }
 
+.tarjetas-header {
+
+    font-family:var(--fuente)
+}
+
+.tarjetas-body {
+
+width: 100%;
+}
+
