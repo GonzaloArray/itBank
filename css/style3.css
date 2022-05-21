@@ -121,13 +121,27 @@ border-right: 20rem;
 
 }
 
-.tarjetas-header {
-
-    font-family:var(--fuente)
-}
+.tarjetas-h1 {
+    color: crimson;
+    font: var(--fuente);
+    font-size: 25px;
+    text-align: left;
+    margin: 40px;
+    padding: 10px
+} 
+    
 
 .tarjetas-body {
 
 width: 100%;
 }
+
+.texto-tarjetas {
+
+font: var(--fuente);
+color:black;
+font-size: 16px;
+}
+
+
 
