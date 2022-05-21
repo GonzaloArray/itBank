@@ -464,52 +464,5 @@ nav{
     margin-left: calc(var(--bs-gutter-x)/ -2);
      }    
 
-     /* CSS del acordeon*/
-     .section-header {
-        text-align: center;
-        margin: 40px 0px 80px;
-    }
-    .section-header h3 {
-        font-size: 22px;
-        color: #000000;
-        text-transform: uppercase;
-    }
-    .section-header h2 {
-        font-size: 32px;
-        color: #d72121;
-        position: relative;
-    }
-    .section-header h2:after {
-        content: "";
-        height: 3px;
-        max-width: 100%;
-        width: 120px;
-        background: #;
-        position: absolute;
-        bottom: -25px;
-        left: 0;
-        right: 0px;
-        margin: 0 auto;
-    }
-    .faq-section .accordion-collapse {
-        border: 0;
-    }
-    .faq-section .accordion-button {
-        padding: 15px 0px 15px;
-        font-weight: bold;
-        border: 0;
-        font-size: 18px;
-        color:red ;
-        text-align: left;
-        border-bottom: 1px solid #black; 
-    }
-    .faq-section .accordion-button:focus {
-        box-shadow: none;
-    }
-      .faq-section .accordion-button:not(.collapsed) {
-        background: none;
-        color: black;
-    } 
-    .faq-section .accordion-body {
-        padding: 15px 0px 15px;
-    }
+
+     
