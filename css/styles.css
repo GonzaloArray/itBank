@@ -446,3 +446,25 @@ nav{
     width: 100%;
     max-width: 100%;
 }
+
+.customers{
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    width: 30rem;
+    text-align: center;
+
+ }
+
+ .cloe{
+    border: 1px solid;
+    border-color: gainsboro;
+    margin-top: 5rem;
+    width: 30rem;
+    text-align: center;
+ }
+
+.mision{
+    text-align: center;
+}
