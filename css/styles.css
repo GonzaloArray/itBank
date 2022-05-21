@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Clases */
-/* Home Banking */
+/* -------------------------- Home Banking ----------------------------*/
 
 .homeBanking{
     background-color: var(--primario);
@@ -95,6 +95,14 @@ nav{
 /* btn */
 .btnActivado img{
     width: 1.2rem;
+}
+/* Online Banking */
+.nav-online{
+    background-color: var(--primario);
+    color: var(--blanco);
+}
+.nav-online a, .nav-online a.active{
+    color: var(--segundo);
 }
 
 /* Comienza Carrousel */
