@@ -126,7 +126,7 @@ border-right: 20rem;
     font: var(--fuente);
     font-size: 25px;
     text-align: left;
-    margin: 40px;
+    margin: 16px;
     padding: 10px
 } 
     
@@ -134,14 +134,86 @@ border-right: 20rem;
 .tarjetas-body {
 
 width: 100%;
+
+}
+
+.boton-tarjeta {
+    background-color: var(--primario);
+    border-radius: 1rem;
+    padding: .6rem 2rem;
+    margin: 25px;
+    
+    
 }
 
 .texto-tarjetas {
 
 font: var(--fuente);
 color:black;
-font-size: 16px;
+font-size: 18px;
+text-align: left;
+margin: 16px;
+padding:10px;
 }
 
+.tarjeta-green1 {
+    width: 20%;
 
+}
 
+.tarjeta-blue1 {
+width: 20%;
+
+}
+
+.tarjeta-red1 {
+    width: 18%;
+    
+}
+
+.red-card {
+
+    font:var(--fuente);
+    text-align: left;
+    margin: 16px;
+    color:crimson;
+    font-size: 25px;
+}
+.blue-card {
+    font:var(--fuente);
+    text-align: left;
+    margin: 16px;
+    color:crimson;
+    font-size: 25px;
+}
+.green-card{
+    font: var(--fuente);
+    text-align: left;
+    margin: 16px;
+    color:crimson;
+    font-size: 25px;
+}
+
+.c-blue {
+    text-align: left;
+    font:var(--fuente);
+    margin: 16px;
+    font-size: 20px;
+    
+}
+
+.c-green {
+    text-align: left;
+    font:var(--fuente);
+    margin: 16px;
+    font-size: 20px;
+    
+}
+
+.c-red {
+    text-align: left;
+    font:var(--fuente);
+    margin: 16px;
+    font-size: 20px;
+    
+}
