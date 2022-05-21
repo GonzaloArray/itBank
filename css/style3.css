@@ -217,3 +217,32 @@ width: 20%;
     font-size: 20px;
     
 }
+
+.texto-blue-card {
+
+    font: var(--fuente);
+    color:black;
+    font-size: 18px;
+    text-align: left;
+    margin: 16px;
+    padding:10px;
+    }
+
+.texto-green-card {
+
+        font: var(--fuente);
+        color:black;
+        font-size: 18px;
+        text-align: left;
+        margin: 16px;
+        padding:10px;
+        }
+ .texto-red-card {
+
+            font: var(--fuente);
+            color:black;
+            font-size: 18px;
+            text-align: left;
+            margin: 16px;
+            padding:10px;
+            }
