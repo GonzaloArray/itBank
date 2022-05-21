@@ -96,14 +96,6 @@ nav{
 .btnActivado img{
     width: 1.2rem;
 }
-/* Online Banking */
-.nav-online{
-    background-color: var(--primario);
-    color: var(--blanco);
-}
-.nav-online a, .nav-online a.active{
-    color: var(--segundo);
-}
 
 /* Comienza Carrousel */
 /* Modificación del carousel */
@@ -355,7 +347,34 @@ nav{
     }
 }
 
-/* Home Banking */
+/* -------Home Banking ----------*/
+/* ---- Online Banking -----*/
+.nav-onlinebanking{
+    background-color: var(--primario);
+    color: var(--segundo);
+}
+.nav-online-link:hover{
+    color: #222020;
+    transition: all ease 0.15s;
+}
+.btn-mov-trans:hover{
+    background-color: var(--primario);
+    color: var(--segundo);
+}
+.btn-aliascbu{
+    border-color: var(--primario);
+    color: var(--primario);
+}
+.btn-aliascbu:hover{
+    background-color: var(--primario);
+}
+.entrar-tarjeta:hover{
+    cursor: pointer;
+    background-color: var(--primario);
+    color: var(--segundo);
+    transition: all ease 150ms;
+}
+
 /* Body HomeBanking */
 .bdHomeBanking{
     align-items: center;
