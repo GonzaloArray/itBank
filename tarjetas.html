@@ -1,81 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tarjetas de Crédito | Débito | ITBANK </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<!--fuentes-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-<!--estilos css-->
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/style3.css">
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--estilos css-->
+    <link rel="stylesheet" href="css/styles.css">
 
-<!-- Link -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;500&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body class="indexBody">
-<div class="homeBanking">
-    <a href="homeBanking.html">Home banking</a>
-</div>
-<!--Aca comienza el navbar-->
-<div class="container">
-    <nav class="navbar navbar-expand-lg barra-nav">
-        <div id="containerNav" class="container-fluid">
-            <a class="navbar-brand" href="index.html">ITBANK</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="turnos-online.html">Turnos Online</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="tarjetas.html">Tarjetas</a></li>
-                            <li><a class="dropdown-item" href="#">Cuentas</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Préstamos</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="homebanking.html">Home Banking</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
+
+    <!--Aca comienza el navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg barra-nav">
+            <div id="containerNav" class="container-fluid">
+                <a class="navbar-brand" href="index.html">ITBANK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="turnos-online.html">Turnos Online</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="tarjetas.html">Tarjetas</a></li>
+                                <li><a class="dropdown-item" href="#">Cuentas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Préstamos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="homebanking.html">Home Banking</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-tarjetas">
+        <img src="images/tarjetas-body.jpg" alt="tarjetas-body" class="tarjetas-body">
+        <h1 class="tarjetas-h1">Solicitá tu tarjeta</h1>
+        <p class="texto-tarjetas"> ¿Querés consultarnos sobre nuestras tarjetas? Encontrá toda la información y las
+            últimas novedades para seguir operando con facilidad. En ITBANK, te ofrecemos seguridad y agilidad al
+            momento de llevar a cabo tus operaciones bancarias.
+        </p>
+        <button class="boton-tarjeta"> Más información </button>
+    </div>
+    <div class="container-elegi">
+        <h2 class="tarjetas-h1"> Elegí la tuya y disfrutá de beneficios todo el año</h2>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Ver Todas</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Tarjeta Gold</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Tarjeta
+                Platinum</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
+                type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Tarjeta Black</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tarjeta-col1 tab-pane fade" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            tabindex="0">
+            <img src="images/tarjeta-blue-2.jpg" alt="tarjeta-blue1" class="tarjeta-blue1">
+            <h1 class="blue-card">ITBANK Blue Card</h1>
+            <h2 class="c-blue">Características</h2>
+            <p class="texto-blue-card">Mayor poder de compra, beneficios exclusivos y protecciones en viaje, que
+                simplifican tu vida.
+                Obtené descuentos y beneficios exclusivos pases a salas VIP de LoungeKey ilimitados para titulares y
+                4 visitas anuales para acompañantes, en aeropuertos alrededor del mundo.
+                Concierge Service.
+                Wi-Fi ilimitado gratuito en más de 1 millón de puntos. Consumo para bonificación de renovación
+                $35.000 </p>
+            <button class="boton-tarjeta"> Solicitala ya</button>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...
+        </div>
+        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+            ...</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="tarjeta-col1">
+                <img src="images/tarjeta-blue-2.jpg" alt="tarjeta-blue1" class="tarjeta-blue1">
+                <h1 class="blue-card">ITBANK Blue Card</h1>
+                <h2 class="c-blue">Características</h2>
+                <p class="texto-blue-card">Mayor poder de compra, beneficios exclusivos y protecciones en viaje, que
+                    simplifican tu vida.
+                    Obtené descuentos y beneficios exclusivos pases a salas VIP de LoungeKey ilimitados para titulares y
+                    4 visitas anuales para acompañantes, en aeropuertos alrededor del mundo.
+                    Concierge Service.
+                    Wi-Fi ilimitado gratuito en más de 1 millón de puntos. Consumo para bonificación de renovación
+                    $35.000 </p>
+                <button class="boton-tarjeta"> Solicitala ya</button>
+            </div>
+            <div class="tarjeta-col2">
+                <img src="images/tarjeta-green-2.jpg" alt="tarjeta-green1" class="tarjeta-green1">
+                <h1 class="green-card">ITBANK Green Card</h1>
+                <h2 class="c-green">Características</h2>
+                <p class="texto-green-card">Beneficios y servicios preferenciales que te acercan adonde querés estar.
+                    Visa Travel Experience.
+                    Visa Luxury Hotel Collection.
+                    Concierge Service. Consumo para bonificación de renovación $20.000 mensuales.
+                </p>
+                <button class="boton-tarjeta"> Solicitala ya</button>
+            </div>
+            <div class="tarjeta-col3">
+                <img src="images/tarjeta-red-2.jpg" alt="tarjeta-red1" class="tarjeta-red1">
+                <h1 class="red-card">ITBANK Red Card</h1>
+                <h2 class="c-red">Características</h2>
+                <p class="texto-red-card"> Si tenés entre 18 y 29 años y estudiás o trabajás, esta tarjeta es para vos.​
+
+                    Beneficios y ahorros adicionales en bares, restó, fast-food, universidad y telefonía móvil.
+                    Tarjetas adicionales sin cargo.
+                    Seguro de precio protegido.Consumo para bonificación de renovación $4.000 mensuales. </p>
+                <button class="boton-tarjeta"> Solicitala ya</button>
+
             </div>
         </div>
-    </nav>
-</div>
-<div class="container-tarjetas">
-    <link rel="stylesheet" href="styles3.css">
-    <h1></h1 class= "tarjetas-header"> Tarjetas de Crédito
-    <img src="images/tarjetas-body.jpg" alt="tarjetas-body" class="tarjetas-body">
-        <p class="texto-tarjetas"> ¿Tenés dudas o inquietudes sobre nuestras tarjetas? Encontrá información útil, instructivos y las últimas novedades relacionadas para seguir operando con facilidad.
-</p>
-</div>
+    </div>
+    <br><br><br>
+    <footer class="footer">
+        <!-- Seccion del footer -->
+        <p>Todos los derechos reservados Grupo 6 - Itbank</p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
