@@ -210,14 +210,12 @@ h6 {
 }
 
 /* Footer */
-.footer {
-    background-color: #222020;
-    padding: 1rem;
+.footerStyle{
+    background-color: #302e2e;
 }
-
-.footer p {
-    color: var(--segundo);
-    font-size: .8rem;
+.footerStyle a:hover{
+    color: var(--primario);
+    transition: .4s;
 }
 
 /* Media Query */
