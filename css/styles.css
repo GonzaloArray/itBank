@@ -95,9 +95,6 @@ h6 {
     font-weight: 900;
 }
 
-nav {
-    display: none;
-}
 
 /* Logo ITBA */
 .logoItba img {
@@ -156,6 +153,7 @@ nav {
 .informeBank p {
     margin-bottom: 2rem;
 }
+
 
 /* btnSlider */
 .btnSlider {
@@ -509,6 +507,7 @@ nav {
     transition: 1s;
     padding: .6rem 4rem;
     width: 0;
+    
 }
 
 #ingresar:hover {
