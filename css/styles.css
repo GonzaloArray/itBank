@@ -1,7 +1,7 @@
 /* Información importante: Todo el desarollo del css se esta haciendo con el orden de la a - z, para buscar rapido la información*/
 
 /* Variables */
-:root{
+:root {
     --primario: #ec0000;
     --segundo: #f2f2f2;
     --blanco: #fff;
@@ -20,22 +20,26 @@
 body {
     font-family: var(--fuente);
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--segundo);
     font-family: var(--fuente);
     font-weight: 900;
 }
-li{
+
+li {
     padding: 0;
     list-style: none;
 }
-button{
+
+button {
     border: none;
     background-color: transparent;
     color: var(--segundo);
 }
-p{
+
+p {
     text-align: center;
     color: var(--negro);
     font-weight: 500;
@@ -43,16 +47,22 @@ p{
     opacity: 1;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 /* Clases */
-/* Home Banking */
+/* -------------------------- Home Banking ----------------------------*/
 
-.homeBanking{
+.homeBanking {
     background-color: var(--primario);
     border: 3px solid black;
     bottom: 2rem;
@@ -61,7 +71,8 @@ h1, h2, h3, h4, h5, h6{
     position: fixed;
     left: 1rem;
 }
-.homeBanking a{
+
+.homeBanking a {
     border-radius: .6rem;
     color: var(--segundo);
     font-size: .9rem;
@@ -69,7 +80,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Header menú */
-.headerMenu{
+.headerMenu {
     align-items: center;
     background-color: var(--primario);
     display: flex;
@@ -78,77 +89,89 @@ h1, h2, h3, h4, h5, h6{
     position: sticky;
     width: 100%;
 }
-.headerMenu a{
+
+.headerMenu a {
     color: var(--blanco);
     font-weight: 900;
 }
-nav{
+
+nav {
     display: none;
 }
+
 /* Logo ITBA */
-.logoItba img{
+.logoItba img {
     width: 3.5rem
 }
-.container{
+
+.container {
     padding: 0;
 }
+
 /* btn */
-.btnActivado img{
+.btnActivado img {
     width: 1.2rem;
 }
 
 /* Comienza Carrousel */
 /* Modificación del carousel */
-.carousel-inner{
+.carousel-inner {
     height: 84vh;
 }
+
 /* Moficacion del boton slider */
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
     border-top: 10px solid #ec0000;
 }
+
 /* Foto slider */
-.imgInforme img{
+.imgInforme img {
     height: 200px;
     object-fit: cover;
     position: relative;
     width: 100%;
 }
-.corteImagen{
+
+.corteImagen {
     border-right: 100vw solid #fff;
     border-top: 20px solid transparent;
     top: 180px;
     position: absolute;
 }
+
 /* Informe */
-.informeBank{
+.informeBank {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 2rem 1rem 0 1rem;
 }
-.informeBank h2{
+
+.informeBank h2 {
     font-weight: 900;
     margin: 0 0 2rem 0;
 }
-.informeBank p{
+
+.informeBank p {
     margin-bottom: 2rem;
 }
 
 /* btnSlider */
-.btnSlider{
+.btnSlider {
     background-color: var(--primario);
     border-radius: 1rem;
     padding: .6rem 2rem;
 }
 
 /* Seccion de Informacion */
-.informeGrid{
+.informeGrid {
     margin: 1.5rem;
     box-shadow: 0px 0px 12px 9px #f8f4f4;
     padding-bottom: 1rem;
 }
-.informeGrid .imagenGrid{
+
+.informeGrid .imagenGrid {
     background-image: url(../images/bank.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,79 +179,95 @@ nav{
     height: 10rem;
     width: 100%;
 }
-.informacionGrid{
+
+.informacionGrid {
     margin: 0 0 0 1rem;
 }
-.informacionGrid h2{
+
+.informacionGrid h2 {
     color: var(--primario);
     font-size: 1.2rem;
     font-weight: 900;
     text-align: left;
     margin-top: 1rem;
 }
-.informacionGrid p{
+
+.informacionGrid p {
     margin-top: .3rem;
     margin-bottom: .8rem;
     text-align: left;
 }
-.informacionGrid a{
+
+.informacionGrid a {
     background-color: var(--primario);
     border-radius: 1rem;
     font-size: .8rem;
     padding: .3rem .7rem;
 }
-.informacionGrid a:hover{
+
+.informacionGrid a:hover {
     color: var(--primario);
     background-color: var(--segundo);
     transition: .5s;
 }
+
 /* Footer */
-.footer{
+.footer {
     background-color: #222020;
     padding: 1rem;
 }
-.footer p{
+
+.footer p {
     color: var(--segundo);
     font-size: .8rem;
 }
 
 /* Media Query */
 @media (min-width: 540px) {
-    .carousel-inner{
+    .carousel-inner {
         height: 73vh;
     }
 }
+
 @media (min-width: 768px) {
+
     /* Home Banking */
-    .homeBanking{
+    .homeBanking {
         display: none;
     }
+
     /* Comienza Carrousel */
-    .container{
+    .container {
         max-width: 100%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         height: 50vh;
     }
-    .carousel-item{
+
+    .carousel-item {
         position: relative;
     }
+
     /* Boton Slider */
-    .carousel-indicators [data-bs-target]{
+    .carousel-indicators [data-bs-target] {
         border-top: 10px solid transparent;
     }
+
     /* Foto slider */
-    .imgInforme img{
+    .imgInforme img {
         height: 50vh;
         object-fit: cover;
         position: relative;
         width: 100%;
     }
-    .corteImagen{
+
+    .corteImagen {
         display: none;
     }
+
     /* Informe */
-    .informeBank{
+    .informeBank {
         background-color: var(--segundo);
         padding: 1rem 2rem;
         position: absolute;
@@ -236,17 +275,19 @@ nav{
         left: 10%;
         right: 50%;
     }
-    .informeBank h2{
+
+    .informeBank h2 {
         text-align: left;
         font-size: 1rem;
     }
-    .informeBank p{
+
+    .informeBank p {
         text-align: left;
         font-size: .9rem;
     }
 
     /* btnSlider */
-    .btnSlider{
+    .btnSlider {
         border-radius: 0;
         color: var(--segundo);
         font-weight: 900;
@@ -257,10 +298,12 @@ nav{
         overflow: hidden;
         display: inline-block;
     }
-    .btnSlider:hover{
+
+    .btnSlider:hover {
         color: var(--primario);
     }
-    .btnSlider::after{
+
+    .btnSlider::after {
         content: "";
         background: var(--segundo);
         position: absolute;
@@ -275,13 +318,14 @@ nav{
         transition: all 1s;
         width: 0;
     }
-    .btnSlider:hover::after{
+
+    .btnSlider:hover::after {
         width: 150%;
     }
 
 
     /* Section Grid */
-    .sectionGrid{
+    .sectionGrid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-self: center;
@@ -289,10 +333,11 @@ nav{
         max-width: 90rem;
         margin: 2rem auto 0 auto;
     }
-    .informacionGrid a{
-        background: var(--blanco); 
-        color: var(--primario); 
-        border: 2px solid var(--primario); 
+
+    .informacionGrid a {
+        background: var(--blanco);
+        color: var(--primario);
+        border: 2px solid var(--primario);
         padding: 3px 10px;
         border-radius: 5px;
         position: relative;
@@ -300,10 +345,12 @@ nav{
         overflow: hidden;
         display: inline-block;
     }
-    .informacionGrid a:hover{
+
+    .informacionGrid a:hover {
         color: #fff;
     }
-    .informacionGrid a::after{
+
+    .informacionGrid a::after {
         content: "";
         background: var(--primario);
         position: absolute;
@@ -317,7 +364,8 @@ nav{
         -webkit-transition: all 0.35s;
         transition: all 0.35s;
     }
-    .informacionGrid a:hover::after{
+
+    .informacionGrid a:hover::after {
         left: 0;
         right: 0;
         top: 0;
@@ -326,30 +374,82 @@ nav{
         transition: all 0.35s;
     }
 }
+
 @media (min-width: 1024px) {
-    .informeBank{
+    .informeBank {
         top: 10%;
         left: 10%;
         right: 60%;
     }
-    .sectionGrid{   
+
+    .sectionGrid {
         max-width: 70rem;
     }
 }
+
 @media (min-width: 1224px) {
-    .informeBank{
+    .informeBank {
         top: 16%;
         left: 13%;
         right: 60%;
     }
-    .sectionGrid{   
+
+    .sectionGrid {
         max-width: 80rem;
     }
 }
 
-/* Home Banking */
+/* -------Home Banking ----------*/
+/* ---- Online Banking -----*/
+.nav-onlinebanking {
+    background-color: var(--primario);
+    color: var(--segundo);
+}
+
+.nav-online-link:hover {
+    color: #222020;
+    transition: all ease 0.15s;
+}
+
+.btn-mov-trans:hover {
+    background-color: var(--primario);
+    color: var(--segundo);
+}
+
+.btn-aliascbu {
+    border-color: var(--primario);
+    color: var(--primario);
+}
+
+.btn-aliascbu:hover {
+    background-color: var(--primario);
+}
+
+.entrar-tarjeta:hover {
+    cursor: pointer;
+    background-color: var(--primario);
+    color: var(--segundo);
+    transition: all ease 150ms;
+}
+
+/* Navbar de la Sesion Iniciada */
+.img-avatar {
+    background-image: url(../images/avatar.jpg);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+}
+
+.itba-logo {
+    background-image: url(../images/ITBA-logo.png);
+    width: 80px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* Body HomeBanking */
-.bdHomeBanking{
+.bdHomeBanking {
     align-items: center;
     background-color: var(--primario);
     display: flex;
@@ -358,20 +458,24 @@ nav{
     justify-content: center;
     width: 100%;
 }
-.bdHomeBanking h1{
+
+.bdHomeBanking h1 {
     color: var(--segundo);
     margin-bottom: 2rem;
 }
-.imagenHome{
+
+.imagenHome {
     margin-bottom: 2rem;
 }
-.formulario-input{
+
+.formulario-input {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.formulario-input input{
+
+.formulario-input input {
     background-color: transparent;
     border: none;
     border-bottom: 3px solid var(--segundo);
@@ -383,14 +487,17 @@ nav{
     margin-bottom: 1rem;
     outline: none;
 }
-.formulario-input input:hover{
+
+.formulario-input input:hover {
     border-bottom: 3px solid var(--negro);
     transition: 1s;
 }
-.formulario-input input::placeholder{
+
+.formulario-input input::placeholder {
     color: var(--segundo);
 }
-#ingresar{
+
+#ingresar {
     border: 2px solid var(--blanco);
     border-radius: .4rem;
     color: var(--blanco);
@@ -403,7 +510,8 @@ nav{
     padding: .6rem 4rem;
     width: 0;
 }
-#ingresar:hover{
+
+#ingresar:hover {
     transform: translateY(20px);
     transition: 1s;
     color: var(--primario);
@@ -411,7 +519,7 @@ nav{
 }
 
 /* Volver (PAGINA HOME BANKING */
-.volverIndex{
+.volverIndex {
     position: absolute;
     top: 2rem;
     left: 1rem;
@@ -419,23 +527,154 @@ nav{
     padding: .3rem 1.2rem;
     border-radius: .3rem;
 }
-.volverIndex a{
+
+.volverIndex a {
     color: var(--primario);
     font-size: .8rem;
 }
 
 @media (min-width: 768px) {
-    .formulario-input input{
+    .formulario-input input {
         width: 24rem;
     }
-    .volverIndex{
+
+    .volverIndex {
         left: 4rem;
     }
 }
-.cont-nav{
+
+.cont-nav {
     margin: 0;
     padding: 0;
     width: 100%;
     max-width: 100%;
 }
 
+.tarjetas-h1 {
+    color: crimson;
+    font: var(--fuente);
+    font-size: 25px;
+    text-align: left;
+    margin: 16px;
+    padding: 10px
+}
+
+
+.tarjetas-body {
+
+    width: 100%;
+
+}
+
+.boton-tarjeta {
+    background-color: var(--primario);
+    border-radius: 1rem;
+    padding: .6rem 2rem;
+    margin: 25px;
+
+
+}
+
+.texto-tarjetas {
+
+    font: var(--fuente);
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin: 16px;
+    padding: 10px;
+}
+
+.tarjeta-green1 {
+    width: 20%;
+
+}
+
+.tarjeta-blue1 {
+    width: 20%;
+
+}
+
+.tarjeta-red1 {
+    width: 18%;
+
+}
+
+.red-card {
+
+    font: var(--fuente);
+    text-align: left;
+    margin: 16px;
+    color: crimson;
+    font-size: 25px;
+}
+
+.blue-card {
+    font: var(--fuente);
+    text-align: left;
+    margin: 16px;
+    color: crimson;
+    font-size: 25px;
+}
+
+.green-card {
+    font: var(--fuente);
+    text-align: left;
+    margin: 16px;
+    color: crimson;
+    font-size: 25px;
+}
+
+.c-blue {
+    text-align: left;
+    font: var(--fuente);
+    margin: 16px;
+    font-size: 20px;
+
+}
+
+.c-green {
+    text-align: left;
+    font: var(--fuente);
+    margin: 16px;
+    font-size: 20px;
+
+}
+
+.c-red {
+    text-align: left;
+    font: var(--fuente);
+    margin: 16px;
+    font-size: 20px;
+
+}
+
+.texto-blue-card {
+
+    font: var(--fuente);
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin: 16px;
+    padding: 10px;
+}
+
+.texto-green-card {
+
+    font: var(--fuente);
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin: 16px;
+    padding: 10px;
+}
+
+.texto-red-card {
+
+    font: var(--fuente);
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin: 16px;
+    padding: 10px;
+}
