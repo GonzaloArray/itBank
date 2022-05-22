@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
+    "liveServer.settings.port": 5502
+=======
     "livePreview.defaultPreviewPath": "/html/preguntas.html"
+>>>>>>> 45ecfbad359827bed2706ca8a7491de7cd991255
 }
