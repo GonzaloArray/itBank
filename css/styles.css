@@ -178,6 +178,34 @@ h6 {
     width: 100%;
 }
 
+.imagenGridInversiones {
+    background-image: url(../images/chart-gd0154fbb2_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.imagenGridSucursales {
+    background-image: url(../images/sucursales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.imagenGridWpp {
+    background-image: url(../images/smartphone-g066859fab_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 10rem;
+    width: 100%;
+}
+
+
 .informacionGrid {
     margin: 0 0 0 1rem;
 }
