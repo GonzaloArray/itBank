@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes</title>
+    <!-- Links -->
+    <!--boostrap localmente-->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" crossorigin="anonymous">
+    -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--estilos css-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Aca comienza el navbar-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg barra-nav">
+            <div id="containerNav" class="container-fluid">
+                <a class="navbar-brand" href="../index.html">ITBANK</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./turnos-online.html">Turnos Online</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./tarjetas.html">Tarjetas</a></li>
+                                <li><a class="dropdown-item" href="#">Cuentas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./prestamos.html">Préstamos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./homebanking.html">Home Banking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntas.html">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Empieza el slider carrosel -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <!-- Botones Slider -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <!-- Primer Slider -->
+                <div class="carousel-item active">   
+                    <!-- Fondo Imagen -->
+                    <div class="imgInforme">
+                        <img src="../images/preguntas.jpg" alt="informe del banco">
+                        <div class="corteImagen"></div>
+                    </div>
+                    <!-- Informe -->
+                    <div class="informeBank my-2">
+                        <h2>¿Cuánto sale abrir una Caja de Ahorros?</h2>
+                        
+
+                        <button class="btnSlider">Conoce más</button>
+                        
+                    </div>
+                </div>
+                <!-- Segundo Slider -->
+                <div class="carousel-item">
+                    <!-- Fondo Imagen -->
+                    <div class="imgInforme">
+                        <img src="../images/preguntas.jpg" alt="informe del banco">
+                        <div class="corteImagen"></div>
+                    </div>
+                    <!-- Informe -->
+                    <div class="informeBank my-3">
+                        <h2>¿En compras presenciales siguen solicitando DNI?</h2>
+                        
+
+                        <button class="btnSlider">Conoce más</button>
+                    </div>
+                </div>
+                <!-- Tercer Slider -->
+                <div class="carousel-item">
+                    <!-- Fondo Imagen -->
+                    <div class="imgInforme">
+                        <img src="../images/preguntas.jpg" alt="informe del banco">
+                        <div class="corteImagen"></div>
+                    </div>
+                    <!-- Informe -->
+                    <div class="informeBank my-2">
+                        <h2>¿La Tarjeta Contactless funciona en el exterior?</h2>
+                        
+
+                        <button class="btnSlider">Conoce más</button>
+                    </div>
+                </div>
+            </div>
+
+        <!--control -->
+        <button class="carousel-control-prev light" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next light" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+        
+          
+         <!--  Aca empieza el acordeón-->
+         <section class="faq-section  bg-lighter m-5">
+            <div class="container" data-aos="fade-up">
+                <header class="section-header text-center text-danger m-5">
+                    <h2>Preguntas frecuentes</h2>
+                </header>
+                <div class="row text-center">
+                    <div class="col-md-5 offset-md-1">
+                        <div class="accordion accordion-flush" id="faqlist1">
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed shadow border border-dark bg-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                    ¿Quiénes somos?
+                                    </button>
+                                </h2>
+                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                    <div class="accordion-body">
+                                        Somos uno de los bancos líderes en medios de pago, en comercio exterior, servicios transaccionales y cash management. Y también uno de los principales protagonistas en los mercados bursátiles, de títulos públicos y cambiarios.
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed shadow border border-dark bg-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                    No entiendo mi resumen. 
+                                    </button>
+                                </h2>
+                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                    <div class="accordion-body">
+                                        Comunicate con nosotros al 0800-343-0306 de lunes a viernes de 8 a 21 h para que podamos ayudarte.
+                                     </div>
+                                </div>
+                            </div>
+    
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed shadow border border-dark bg-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                    ¿Qué es la comision intercursal?
+                                    </button>
+                                </h2>
+                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                    <div class="accordion-body">
+                                        La comisión intersucursal refiere a cuando realizas operaciones en sucursales distintas a donde tenés abierta tu cuenta. Aplica para operaciones en pesos (solo para Personas Jurídicas), dólares (para Personas Físicas como Jurídicas) y euros (solo para Personas Físicas).
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="accordion-item">
+                                 <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed shadow border border-dark bg-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                        ¿Cúal es el monto que debo pagar con mi tarjeta de Crédito?
+                                    </button>
+                                 </h2>
+                                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                 <div class="accordion-body">
+                                     Para saber el monto a pagar de tu Tarjeta de Crédito ingresá a Banca Online con tu DNI, Usuario y Clave Digital. Luego seleccioná las opciones Tarjetas--> Seleccioná la tarjeta a consultar--> Operar-->Pago de Tarjeta.  También podés consultar el monto en la app.
+                                </div>
+                                </div>
+                            </div>  
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed shadow border border-dark bg-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                        ¿Cómo consulto mi CBU?
+                                </button>
+                                </h2>
+                               <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                               <div class="accordion-body">
+                                     Podés consultar tu CBU a través de Banca Online, ingresando con tu DNI, Usuario y Clave Digital. Seleccioná la Cuenta a consultar en Operaciones → Consultar mi CBU.
+    
+                                     También podés hacerlo a través de la app BBVA, ingresando con tu DNI, Usuario y Clave Digital. Seleccioná la Cuenta a consultar → Consulta de CBU.
+    
+                                     O en Cajero Banelco, ingresando tu Tarjeta de Débito, y PIN y seleccionando la opción Consultas → Consulta de CBU.
+                                </div>
+                                </div>
+                            </div>                     
+                            
+                            <div class="accordion-item">
+                                 <h2 class="accordion-header">
+                                 <button class="accordion-button collapsed shadow border border-dark bg-light text-danger " data-bs-toggle="collapse" data-bs-target="#faq-content-6">
+                                 ¿Cómo consulto los limites y saldos disponibles de mi Tarjeta de Crédito?
+                                 </button>
+                                 </h2>
+                                <div id="faq-content-6" class="accordion-collapse collapse" type="button" data-bs-parent="#faqlist1">
+                                <div class="accordion-body">
+                                        Para consultar tus límites de compra (en cuotas o financiación) y saldos disponibles ingresá a Banca Online con tu DNI, Usuario y Clave Digital. Seleccioná la opción Tarjetas → seleccioná la tarjeta correspondiente → Voy a→ Ver estado actual.
+                                </div>
+                                </div>
+                            </div>
+                
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed shadow border border-dark bg-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
+                                       Perdi mi tarjeta de Débito.
+                                </button>
+                                </h2>
+                                <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                                <div class="accordion-body">
+                                    Si todavía no denunciaste el robo o extravío de tu Tarjeta de Débito hacelo comunicándote con nuestra Línea al 0800-343-0306. Marcá la opción 5 y luego la opción 1 correspondiente a Visa Débito.
+    
+                                    También podés comunicarte con el Centro de Reclamos al 4321-2509 y automáticamente se generará una nueva tarjeta que se enviará a tu domicilio.
+                                                          
+                                </div>
+                                </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            </section>
+    <!--Termina acordeón --
+
+    <!-- Footer -->
+    <footer class="p-4 text-center footerStyle">
+        <div>
+            <h2 class="text-light text-start ms-5"><a href="../index.html">ITBANK</a></h2>
+        </div>
+        <div class="p-4">
+            <a class="me-3" href="#">Preguntas frecuentes</a>
+            <a class="me-3" href="#">En caso de robo</a>
+            <a class="me-3" href="#">Crear cuenta en ITBANK</a>
+            <a class="me-3" href="#">¿Como tengo mi ITBANK en segundos?</a>
+            <a class="me-3" href="#">Dar de baja la Tarjeta</a>
+            <a class="me-3" href="#">Noticias</a>
+            <a class="me-3" href="#">Prestamos</a>
+            <a class="me-3" href="#">Puntos ITEBANCAMOS</a>
+        </div>
+        <a href="#">Volver al inicio</a>
+        <!-- Seccion del footer -->
+        <p class="text-light p-4">Todos los derechos reservados Grupo 6 - Itbank</p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
