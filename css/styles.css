@@ -81,21 +81,33 @@ h6 {
 
 /* Header menú */
 .headerMenu {
-    align-items: center;
     background-color: var(--primario);
-    display: flex;
-    justify-content: space-between;
-    padding: .6rem 1.2rem;
     position: sticky;
-    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
-.headerMenu a {
+.headerMenu li a{
     color: var(--blanco);
     font-weight: 900;
+    transition: .3s;
 }
-
-
+.headerMenu li a:hover{
+    color: var(--blanco);
+    transform: translateY(3px);
+    font-weight: 900;
+    transition: .3s;
+    background-color: transparent;
+}
+.colorText a i{
+    color: var(--blanco);
+}
+.navegadorHeader a{
+    color: var(--blanco);
+    transition: .3s;
+}
 /* Logo ITBA */
 .logoItba img {
     width: 3.5rem
@@ -703,5 +715,8 @@ h6 {
     margin: 16px;
     padding: 10px;
 }
-
-
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
