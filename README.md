@@ -38,4 +38,4 @@ Este proyecto está basado BECA SANTANDER
 4. Realiza tus cambios
 5. Manda tu pull request
 ## Licencia
-MIT
+Grupo 6
