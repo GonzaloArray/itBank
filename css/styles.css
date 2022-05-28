@@ -81,21 +81,33 @@ h6 {
 
 /* Header menú */
 .headerMenu {
-    align-items: center;
     background-color: var(--primario);
-    display: flex;
-    justify-content: space-between;
-    padding: .6rem 1.2rem;
     position: sticky;
-    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
-.headerMenu a {
+.headerMenu li a{
     color: var(--blanco);
     font-weight: 900;
+    transition: .3s;
 }
-
-
+.headerMenu li a:hover{
+    color: var(--blanco);
+    transform: translateY(3px);
+    font-weight: 900;
+    transition: .3s;
+    background-color: transparent;
+}
+.colorText a i{
+    color: var(--blanco);
+}
+.navegadorHeader a{
+    color: var(--blanco);
+    transition: .3s;
+}
 /* Logo ITBA */
 .logoItba img {
     width: 3.5rem
@@ -177,6 +189,34 @@ h6 {
     height: 10rem;
     width: 100%;
 }
+
+.imagenGridInversiones {
+    background-image: url(../images/chart-gd0154fbb2_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.imagenGridSucursales {
+    background-image: url(../images/sucursales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.imagenGridWpp {
+    background-image: url(../images/smartphone-g066859fab_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 10rem;
+    width: 100%;
+}
+
 
 .informacionGrid {
     margin: 0 0 0 1rem;
@@ -674,4 +714,9 @@ h6 {
     text-align: left;
     margin: 16px;
     padding: 10px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
