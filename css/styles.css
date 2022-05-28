@@ -70,6 +70,7 @@ h6 {
     padding: .3rem 1rem;
     position: fixed;
     left: 1rem;
+    z-index: 5;
 }
 
 .homeBanking a {
