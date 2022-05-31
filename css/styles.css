@@ -87,7 +87,11 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 10;
+}
+.headerMenu button{
+    border: none;
+    color: var(--blanco);
 }
 
 .headerMenu li a{
@@ -721,3 +725,12 @@ h6 {
     left: 50%;
     transform: translatex(-50%);
 }
+
+/* Esto se va a borrar */
+.rediseñarOnline{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Esto se va a borrar */
