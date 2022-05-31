@@ -1,7 +1,8 @@
-const formulario = document.querySelector('.mensajeError');
 
 // Login para HomeBanking
 document.addEventListener('submit', iniciarApp);
+
+const formulario = document.querySelector('.mensajeError');
 
 function iniciarApp(e){
     e.preventDefault();
