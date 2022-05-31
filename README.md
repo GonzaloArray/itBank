@@ -19,13 +19,13 @@ Este proyecto está basado BECA SANTANDER
 ## Vista previa
 ### Perfil
 ![]()
-### Proveedores
+### Home Banking
+![]()
+### Preguntas Frecuentes
+![]()
+### Turnos Online
 ![]()
 ### Productos
-![]()
-### Categorias
-![]()
-### Ventas
 ![]()
 ### Ventas detalle
 ![]()
