@@ -1,0 +1,60 @@
+/* GLobales */
+html{
+    box-sizing: border-box;
+}
+body{
+    color: #ffffff;
+    background-color: saddlebrown;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    margin: 0;
+}
+
+/* Clases */
+.tituloHeader{
+    margin: 3rem 0;
+}
+.resultado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.listaGroup{
+    background-color: rgb(39, 133, 133);
+}
+.listaGroup h2{
+    background-color: red;
+}
+.divMensaje{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    padding: .8rem 2rem;
+}
+
+.variacionParrafo{
+    background-color: red;
+    text-align: center;
+    padding: .2rem ;
+}
