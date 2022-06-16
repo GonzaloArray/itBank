@@ -21,7 +21,7 @@ const variacion1 = document.querySelector("#variacion1 span");
 const variacion2 = document.querySelector("#variacion2 span");
 
 function iniciarApp() {
-    consultarApi();
+
 }
 
 //Me traigo el JSON por la url
