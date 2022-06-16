@@ -8,11 +8,11 @@ const titulo = document.querySelector("#titulo");
 const titulo1 = document.querySelector("#titulo1");
 const titulo2 = document.querySelector("#titulo2");
 
-const venta = document.querySelector("#venta");
+const venta = document.querySelector("#venta span");
 const venta1 = document.querySelector("#venta1");
 const venta2 = document.querySelector("#venta2");
 
-const compra = document.querySelector("#compra");
+const compra = document.querySelector("#compra span");
 const compra1 = document.querySelector("#compra1");
 const compra2 = document.querySelector("#compra2");
 
@@ -42,7 +42,28 @@ function dolaresCotizacion(cotizaciones) {
         }else{
             return false;
         }
-    });
-    console.log(cotizacionesFilter);
+    }); 
+    mostrarCotizacion(cotizacionesFilter);
+}
 
+function mostrarCotizacion(cotizacionfiltrada){
+
+    delete cotizacionfiltrada[2].casa.compra;
+
+    titulo.textContent=cotizacionfiltrada[0].casa.nombre;
+    titulo1.textContent=cotizacionfiltrada[1].casa.nombre;
+    titulo2.textContent=cotizacionfiltrada[2].casa.nombre;
+
+    compra.textContent=cotizacionfiltrada[0].casa.compra;
+    compra1.textContent=cotizacionfiltrada[1].casa.compra;
+    compra2.textContent=cotizacionfiltrada[2].casa.compra;
+
+    venta.textContent=cotizacionfiltrada[0].casa.venta;
+    venta1.textContent=cotizacionfiltrada[1].casa.venta;
+    venta2.textContent=cotizacionfiltrada[2].casa.venta;
+
+    variacion.textContent=cotizacionfiltrada[0].casa.variacion;
+    variacion1.textContent=cotizacionfiltrada[1].casa.variacion;
+    variacion2.textContent=cotizacionfiltrada[2].casa.variacion;
+  
 }
