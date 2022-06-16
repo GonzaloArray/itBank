@@ -8,20 +8,20 @@ const titulo = document.querySelector("#titulo");
 const titulo1 = document.querySelector("#titulo1");
 const titulo2 = document.querySelector("#titulo2");
 
-const venta = document.querySelector("#venta");
-const venta1 = document.querySelector("#venta1");
-const venta2 = document.querySelector("#venta2");
+const venta = document.querySelector("#venta span");
+const venta1 = document.querySelector("#venta1 span");
+const venta2 = document.querySelector("#venta2 span");
 
-const compra = document.querySelector("#compra");
-const compra1 = document.querySelector("#compra1");
-const compra2 = document.querySelector("#compra2");
+const compra = document.querySelector("#compra span");
+const compra1 = document.querySelector("#compra1 span");
+const compra2 = document.querySelector("#compra2 span");
 
 const variacion = document.querySelector("#variacion span");
 const variacion1 = document.querySelector("#variacion1 span");
 const variacion2 = document.querySelector("#variacion2 span");
 
 function iniciarApp() {
-
+    consultarApi();
 }
 
 //Me traigo el JSON por la url
@@ -37,13 +37,14 @@ function dolaresCotizacion(cotizaciones) {
     const cotizacionesFilter = cotizaciones.filter(response=>{
         const objetoCasa = response.casa;
         const { compra,venta,agencia,nombre,variacion,ventaCero,decimales } = objetoCasa;
-        if(agencia==310 || agencia==349 || agencia==406){
+        if(nombre !== 'Argentina' && nombre !== 'Bitcoin' && nombre !== 'Dolar Soja'){
             return true;
         }else{
             return false;
         }
     }); 
     mostrarCotizacion(cotizacionesFilter);
+    console.log(cotizacionesFilter)
 }
 
 function mostrarCotizacion(cotizacionfiltrada){
@@ -57,6 +58,7 @@ function mostrarCotizacion(cotizacionfiltrada){
     compra.textContent=cotizacionfiltrada[0].casa.compra;
     compra1.textContent=cotizacionfiltrada[1].casa.compra;
     compra2.textContent=cotizacionfiltrada[2].casa.compra;
+    console.log(cotizacionfiltrada[2].casa.compra);
 
     venta.textContent=cotizacionfiltrada[0].casa.venta;
     venta1.textContent=cotizacionfiltrada[1].casa.venta;
