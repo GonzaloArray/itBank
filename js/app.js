@@ -65,5 +65,6 @@ function mostrarCotizacion(cotizacionfiltrada){
     variacion.textContent=cotizacionfiltrada[0].casa.variacion;
     variacion1.textContent=cotizacionfiltrada[1].casa.variacion;
     variacion2.textContent=cotizacionfiltrada[2].casa.variacion;
-  
+
+   setInterval("location.reload()",60000);
 }
