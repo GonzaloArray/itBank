@@ -24,20 +24,25 @@ function iniciarApp() {
     consultarApi();
 }
 
-
-
-
-
-//cotizador 
-
-
-function consultarApi () {
-const url = 'https://www.dolarsi.com/api/api.php?type=valoresprincipales';
-fetch(url)
-.then(result=>result.json())
-.then(resultado=>dolaresCotizacion(resultado)) 
+//Me traigo el JSON por la url
+function consultarApi() {
+    const url = 'https://www.dolarsi.com/api/api.php?type=valoresprincipales';
+    fetch(url)
+        .then(result => result.json())
+        .then(cotizaciones => dolaresCotizacion(cotizaciones))
 }
+//Desarmo el JSON
+function dolaresCotizacion(cotizaciones) {
 
-function dolaresCotizacion (datos) {
-console.log (datos);    
+    const cotizacionesFilter = cotizaciones.filter(response=>{
+        const objetoCasa = response.casa;
+        const { compra,venta,agencia,nombre,variacion,ventaCero,decimales } = objetoCasa;
+        if(agencia==310 || agencia==349 || agencia==406){
+            return true;
+        }else{
+            return false;
+        }
+    });
+    console.log(cotizacionesFilter);
+
 }
