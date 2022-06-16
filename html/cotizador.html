@@ -76,33 +76,62 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Cotizador Dolar Itbank</h1>
-        <div class="cotizador">
-            <h2 id="titulo"></h2>
-            <div class="compra-venta">
-                <p id="compra">compra: <span></span></p>
-                <p id="venta">venta: <span></span></p>
+    <div class="container-xl p-3">
+        <h1 class="mb-3">Cotizador Dolar Itbank</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="cotizador card text-center">
+                    <h2 id="titulo" class="card-header fw-bolder fs-5"></h2>
+                    <div class="compra-venta card-body d-flex p-2">
+                        <div class="w-50 d-inline-block">
+                            <p class="m-0 fw-semibold">Compra</p><p id="compra" class="m-0 fs-4 text-success fw-bolder"></p>
+                        </div>
+                        <div class="w-50 d-inline-block">
+                            <p class="m-0 fw-semibold">Venta</p><p id="venta" class="m-0 fs-4 text-danger fw-bolder"></p>
+                        </div>
+                    </div>
+                    <p class="card-text m-1" id="variacion">VARIACION: <span></span></p>
+                    <div class="card-footer text-muted">
+                        ACTUALIZADO: 14/06/2022 15:00
+                    </div>
+                </div>
             </div>
-            <p id="variacion"></p>
-        </div>
-        <div class="cotizador1">
-            <h2 id="titulo1"></h2>
-            <div class="compra-venta1">
-                <p id="compra1"></p>
-                <p id="venta1"></p>
+            <div class="col">
+                <div class="cotizador1 card text-center">
+                    <h2 id="titulo1" class="card-header fw-bolder fs-5"></h2>
+                    <div class="compra-venta1 card-body d-flex p-2">
+                        <div class="w-50 d-inline-block">
+                            <p class="m-0 fw-semibold">Compra</p><p id="compra1" class="m-0 fs-4 text-success fw-bolder"></p>
+                        </div>
+                        <div class="w-50 d-inline-block">
+                            <p class="m-0 fw-semibold">Venta</p><p id="venta1" class="m-0 fs-4 text-danger fw-bolder"></p>
+                        </div>
+                    </div>
+                    <p class="card-text m-1" id="variacion1">VARIACION: <span></span></p>
+                    <div class="card-footer text-muted">
+                        ACTUALIZADO: 14/06/2022 15:00
+                    </div>
+                </div>
             </div>
-            <p id="variacion1"></p>
-        </div>
-        <div class="cotizador2">
-            <h2 id="titulo2"></h2>
-            <div class="compra-venta2">
-                <p id="compra2"></p>
-                <p id="venta2"></p>
+            <div class="col">
+                <div class="cotizador2 card text-center">
+                    <h2 id="titulo2" class="card-header fw-bolder fs-5"></h2>
+                    <div class="compra-venta card-body d-flex p-2">
+                        <div class="w-50 d-inline-block">
+                            <p class="m-0 fw-semibold">Compra</p><p id="compra2" class="m-0 fs-4 text-success fw-bolder"></p>
+                        </div>
+                        <div class="w-50 d-inline-block">
+                            <p class="m-0 fw-semibold">Venta</p><p id="venta2" class="m-0 fs-4 text-danger fw-bolder"></p>
+                        </div>
+                    </div>
+                    <p class="card-text m-1" id="variacion2">VARIACION: <span></span></p>
+                    <div class="card-footer text-muted">
+                        ACTUALIZADO: 14/06/2022 15:00
+                    </div>
+                </div>
             </div>
-            <p id="variacion2"></p>
         </div>
-    </main>
+    </div>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-dark text-muted">
