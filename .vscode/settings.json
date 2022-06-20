@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/html/cotizador.html"
+    "livePreview.defaultPreviewPath": "/html/cotizador.html",
+    "liveServer.settings.port": 5501
 }
